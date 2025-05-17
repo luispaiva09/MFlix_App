@@ -3,7 +3,7 @@ import axios from 'axios';
 import { useNavigate, Link } from 'react-router-dom';
 import './Register.css';
 
-const API_URL = 'http://localhost:8000';
+const API_URL = 'https://mflix-app-om41.onrender.com';
 
 function Register() {
   const [name, setName] = useState('');
