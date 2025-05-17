@@ -1,0 +1,89 @@
+/* Evita conflito com Home.css e Login.css */
+
+.register-wrapper {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #222;
+  margin: 0;
+  padding: 0;
+}
+
+.register-container {
+  background-color: #111;
+  padding: 40px 30px;
+  border-radius: 10px;
+  width: 350px;
+  box-shadow: 0 0 15px rgba(0, 170, 255, 0.5);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.register-title {
+  color: #00aaff;
+  margin-bottom: 30px;
+  font-size: 2rem;
+}
+
+.error-message {
+  background-color: #d33;
+  color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  width: 100%;
+  text-align: center;
+}
+
+.register-form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.register-input {
+  padding: 12px 15px;
+  border-radius: 6px;
+  border: 1px solid #00aaff;
+  background-color: #222;
+  color: #fff;
+  font-size: 1rem;
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+
+.register-input:focus {
+  border-color: #0088cc;
+}
+
+.register-button {
+  padding: 12px;
+  background-color: #00aaff;
+  color: #000;
+  font-weight: bold;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 1.1rem;
+  transition: background-color 0.3s ease;
+}
+
+.register-button:hover {
+  background-color: #0088cc;
+}
+
+.login-text {
+  margin-top: 20px;
+  color: #aaa;
+  font-size: 0.9rem;
+  text-align: center;
+}
+
+.login-link {
+  color: #00aaff;
+  text-decoration: none;
+  margin-left: 5px;
+}
