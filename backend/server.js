@@ -34,7 +34,7 @@ const server = http.createServer(app);
 // Middlewares
 app.use(cors());
 app.use(express.json());
-app.use(express.static(path.join(__dirname, '../frontend/public')));
+app.use(express.static(path.join(__dirname, '../frontend/build')));
 
 // Rotas
 app.use('/api/auth', authRoutes);
@@ -47,7 +47,7 @@ app.use((err, req, res, next) => {
 
 // Rota principal
 app.get('/', (req, res) => {
-    res.sendFile(path.join(__dirname, '../frontend/public', 'index.html'));
+    res.sendFile(path.join(__dirname, '../frontend/build', 'index.html'));
 });
 
 // Iniciar servidor
