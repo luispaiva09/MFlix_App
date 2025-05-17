@@ -3,7 +3,7 @@ import { useParams, Link } from 'react-router-dom';
 import axios from 'axios';
 import './MovieDetails.css'; // Import do CSS
 
-const API_URL = process.env.REACT_APP_API_URL || 'http://localhost:8000';
+const API_URL = 'http://localhost:8000';
 
 function MovieDetails() {
   const { id } = useParams();
