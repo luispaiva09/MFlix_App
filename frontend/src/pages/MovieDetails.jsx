@@ -3,7 +3,7 @@ import { useParams, Link } from 'react-router-dom';
 import axios from 'axios';
 import './MovieDetails.css'; // Import do CSS
 
-const API_URL = 'http://localhost:8000';
+const API_URL = 'https://mflix-app-om41.onrender.com';
 
 function MovieDetails() {
   const { id } = useParams();
