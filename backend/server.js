@@ -51,5 +51,5 @@ app.get('/', (req, res) => {
 });
 
 // Iniciar servidor
-const PORT = process.env.PORT || 8000;
+const PORT = process.env.PORT || 8000 || 8001;
 server.listen(PORT, () => console.log(`🚀 Servidor rodando na porta ${PORT}`));
